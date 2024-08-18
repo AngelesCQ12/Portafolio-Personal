@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Work+Sans:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Comfortaa:wght@700&family=Work+Sans:wght@400;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    
+    scroll-behavior: smooth;
+    min-width: 580px;
+}
+
+/*MENU*/
+.contenedor-header{
+    background: #0d0c1d;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    border-bottom: 5px solid rgba(71, 73, 115);
+
+}
+.contenedor-header header{
+max-width: 1100px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 20px;
+
+}
+
+.contenedor-header header .logo a{
+    font-family: 'ARIAL';
+    font-size: 40px;
+    color: #a69cac;
+text-decoration: none;
+}
+
+.contenedor-header header ul{
+    display: flex;
+    list-style: none;
+}
+
+.contenedor-header header nav ul li a{
+    text-align: none;
+    color: #a69cac;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.contenedor-header header nav ul li a:hover{
+    color: #0d0c1d;
+}
+
+.nav-responsive{
+    background-color:#0d0c1d;
+    color: #a69cac;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+/* -------------------------------------------SECCION PORTFOLIO -------------------------------------------------*/
+.portfolio{
+    background-color: #0d0c1d;
+    color: #a69cac;
+    padding: 50px 20px;
+}
+.portfolio .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.portfolio h2{
+    font-size: 48px;
+    font-family: 'Arial';
+    text-align: center;
+    padding: 20px 0;
+}
+.portfolio .galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.portfolio .galeria .proyecto{
+    position: relative;
+    max-width: 340px;
+    height: fit-content;
+    margin: 10px;
+    
+}
+.portfolio .galeria .proyecto img{
+    width: 100%;
+    display: block;
+}
+.portfolio .contenido-seccion .definicion{
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.portfolio .galeria .proyecto .descripcion{
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+}

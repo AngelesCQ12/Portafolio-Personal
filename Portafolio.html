@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap">;
+    <title>PORTAFOLIO PERSONAL</title>
+    <link rel="stylesheet" href="./CSS/EstilosInicio.css">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">ACQ</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="Sobre-mi.html" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="Curriculum.html" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="Portafolio.html" onclick="seleccionar()">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    <hr>
+    </div>
+        
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+
+            <a class="Espacio" href="Sysinfo.html">
+                <div class="proyecto">
+                    <img src="Images/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>SYSINFO</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a class="Espacio" href="Farmacia.html">
+                <div class="proyecto">
+                    <img src="Images/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>FARMACIA</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a class="Espacio" href="AnalizadorLexico.html">
+                <div class="proyecto">
+                    <img src="Images/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>ANALIZADOR LEXICO</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a class="Espacio" href="Cafeteria.html">
+                <div class="proyecto">
+                    <img src="Images/P4.jpg" alt="">
+                    <div class="overlay">
+                    <h3>CAFETERIA</h3>
+                    </div>
+                </div>
+            </a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
